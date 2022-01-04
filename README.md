@@ -72,3 +72,63 @@ Enter the name of the output file\
 xyz.txt
 
 ## Test Cases
+### Test Case 1: Large amount of data
+The following is the data inside the file:
+“Harry Potter is a series of seven fantasy novels written by
+British author J. K. Rowling. The novels chronicle the lives of
+a young wizard, Harry Potter, and his friends Hermione Granger
+and Ron Weasley, all of whom are students at Hogwarts School of
+Witchcraft and Wizardry.Harry Potter is a series of seven
+fantasy novels written by British author J. K. Rowling. The
+novels chronicle the lives of a young wizard, Harry Potter, and
+his friends Hermione Granger and Ron Weasley, all of whom are
+students at Hogwarts School of Witchcraft and Wizardry.Harry
+Potter is a series of seven fantasy novels written by British
+author J. K. Rowling. The novels chronicle the lives of a young
+wizard, Harry Potter, and his friends Hermione Granger and Ron
+Weasley, all of whom are students at Hogwarts School of
+Witchcraft and Wizardry.Harry Potter is a series of seven
+fantasy novels written by British author J. K. Rowling. The
+novels chronicle the lives of a young wizard, Harry Potter, and
+his friends Hermione Granger and Ron Weasley, all of whom are
+students at Hogwarts School of Witchcraft and Wizardry.”
+
+The expected output is:
+
+a - 8\
+all - 4\
+and - 12\
+are - 4\
+at - 4\
+author - 4\
+british - 4\
+by - 4\
+chronicle - 4\
+fantasy - 4\
+friends - 4\
+granger - 4\
+harry - 8\
+hermione - 4\
+his - 4\
+hogwarts - 4\
+is - 4\
+j - 4\
+k - 4\
+lives - 4\
+novels - 8\
+of - 16\
+potter - 8\
+ron - 4\
+rowling - 4\
+school - 4\
+series - 4\
+seven - 4\
+students - 4\
+the - 8\
+weasley - 4\
+whom - 4\
+witchcraft- 4\
+wizard - 4\
+wizardry - 4\
+written - 4\
+young - 4\
