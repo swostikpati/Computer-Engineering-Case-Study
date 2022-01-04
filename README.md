@@ -73,7 +73,7 @@ xyz.txt
 
 ## Test Cases
 ### Test Case 1: Large amount of data
-The following is the data inside the file:
+The following is the data inside the file:\
 “Harry Potter is a series of seven fantasy novels written by
 British author J. K. Rowling. The novels chronicle the lives of
 a young wizard, Harry Potter, and his friends Hermione Granger
@@ -131,4 +131,49 @@ witchcraft- 4\
 wizard - 4\
 wizardry - 4\
 written - 4\
-young - 4\
+young - 4
+
+### Test Case 2: Text with a lot of punctuation
+The following is the text in the file:\
+“app.le#baLL cat.bAll_le’app dog-dOg$Apple^ cat.apple%@^&[ball}
+:DoG~!@#$%^&****(jug<>?|}{‘APPLE$BALL_CAT.DOG==APP?LE ~```Ball”
+
+The expected output is:
+
+app - 3\
+apple - 3\
+ball - 5\
+cat - 3\
+dog - 4\
+jug - 1\
+le - 3
+
+
+### Test Case 3: Text with numbers
+The following is the text in the file:
+“3a6quick9brown1456789098765456789098765fox3jumps6over3the9lazy0
+dog7a3quick4brown8fox2jumps6over4the2lazy3dog8!@#$%^&*(a4quick7b
+rown 8fox2jumps7over4the3lazy8dog12345678901234567890”
+
+The expected output is:
+
+a - 3\
+brown - 3\
+dog - 3\
+fox - 3\
+jumps - 3\
+lazy - 3\
+over - 3\
+quick - 3\
+the - 3
+
+## Software Testing and Verification
+
+[To be filled]
+
+## User Guide
+The program will help you determine the most important concepts in a text file. You can provide
+the program with a text file containing data. The program will give you the list of unique words
+in the document (concordance) and their frequencies. It will also prompt you to provide the name
+of the output file. The program will then print the concordance list in the output file and provide
+you with a confirmation of the same.
