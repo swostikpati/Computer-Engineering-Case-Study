@@ -1,14 +1,3 @@
-//**********************************************************************//
-//** Author:Swostik Pati                                              **//
-//** Date Created: 12 November, 2021                                  **//
-//** Assignment 2: Computer Engineering Case Study –                  **//   
-//** Concordance of a Text File                                       **//
-//** ENGR-UH-1000 Computer Programming for Engineers, NYUAD           **//
-//** Problem:                                                         **//
-//** To create a a software that performs information retrieval       **//
-//** and determines the “most important concepts” in a text file      **//
-//**********************************************************************//
-
 //Importing Required Libraries
 #include <iostream>
 #include <fstream>
